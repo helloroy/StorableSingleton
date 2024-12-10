@@ -11,7 +11,7 @@ public abstract class StorableSingleton<T> where T : class, new()
 {
     private static bool debugEnabled = false;
     private static bool encryptionEnabled = true;
-    private static string encryptionKey = "vC4S(]~*U^`HQ15"; // Generate a New Key: https://randomkeygen.com/
+    private static string encryptionKey = "New Key Here"; // Generate a New Key: https://randomkeygen.com/
     private static string fileName => typeof(T).Name;
     private static string fileExtension = ".ss";
 
